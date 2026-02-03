@@ -17,7 +17,7 @@ pipeline {
 
     stage('Checkout Code') {
       steps {
-        git branch: 'main',
+        git branch: 'Stage',
             url: 'https://github.com/Wakekar/Netflix-cone.git'
       }
     }
