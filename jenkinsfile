@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    TMDB_V3_API_KEY = credentials('TMDB_V3_API_KEY')  //TMDB key genrate nahi zali mhanun 123456789 secrettext credential use kela, success zala
+    TMDB_V3_API_KEY = credentials('TMDB_V3_API_KEY')
     IMAGE_NAME = "netflix-clone"
     CONTAINER_NAME = "netflix-app"
   }
